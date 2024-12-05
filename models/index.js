@@ -13,12 +13,12 @@ const sequelize = new Sequelize(
     port: process.env.DB_PORT || 5432,
     dialect: "postgres",
     timezone: timezone,
-    /* dialectOptions: {
+    dialectOptions: {
       ssl: {
         require: true,
         rejectUnauthorized: false
       }
-    }, */
+    }, 
     pool: {
       max: 5,
       min: 0,
