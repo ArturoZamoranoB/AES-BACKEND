@@ -18,6 +18,7 @@ const sequelize = new Sequelize(
         require: true,
         rejectUnauthorized: false
       }
+      
     }, 
     pool: {
       max: 5,
